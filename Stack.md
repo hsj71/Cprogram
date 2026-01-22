@@ -300,7 +300,7 @@ int main()
         while(*e != '\0') 
         { 
                 if(isdigit(*e))
-                {     num = *e - 48; 
+                {     num = *e - 48;   // 48 == '0' as all stored *e+48 in ascii
                       push(num); 
                 } 
                 else {  n1 = pop(); 
