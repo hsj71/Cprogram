@@ -115,12 +115,15 @@ h_worst = n - 1
 2️⃣2️⃣ Number of possible binary trees with n nodes
 (Catalan Number)
 ```
-C(n) = (1 / (n+1)) * (2n choose n)
+n = total nodes
+C(n) = (1 / (n+1)) * (2n choose n)  ------------ (1 / (n+1)) * (2n!/n!)
 ```
+C(3)=(1/4​)(6!/3!​)=(1/4)(20)=5
 
 2️⃣3️⃣ Number of full binary trees with n internal nodes
 ```
-= C(n)
+n = internal nodes
+hence  C(n) as possible binary trees but total nodes is 2n+1 
 ```
 ---
 | Property                  | Formula       |
