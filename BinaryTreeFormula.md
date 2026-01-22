@@ -9,38 +9,38 @@ N₁ = number of nodes with 1 child
 N₂ = number of nodes with 2 children
 ```
 ## General Binary Tree Formulas
-1️⃣ Maximum nodes at level i
+1 Maximum nodes at level i
 ```
 Max nodes at level i = 2^i
 ```
-2️⃣ Maximum nodes in a binary tree of height h
+2 Maximum nodes in a binary tree of height h
 ```
 Max nodes = 2^(h+1) - 1
 ```
-3️⃣ Minimum nodes in a binary tree of height h
+3 Minimum nodes in a binary tree of height h
 ```
 Min nodes = h + 1
 ```
 (Skewed tree case)
-4️⃣ Height in terms of nodes (max case)
+4 Height in terms of nodes (max case)
 ```
 h = ⌊log₂(n)⌋
 ```
 
-5️⃣ Number of edges in a tree
+5 Number of edges in a tree
 ```
 Edges = n - 1
 ```
 ## Relationships Between Node Types
-6️⃣ Total nodes
+6 Total nodes
 ```
 n = N₀ + N₁ + N₂
 ```
-7️⃣ Leaf node formula (Important)
+7 Leaf node formula (Important)
 ```
 N₀ = N₂ + 1
 ```
-8️⃣ Internal nodes
+8 Internal nodes
 ```
 Internal nodes = N₁ + N₂
 ```
@@ -48,71 +48,71 @@ Internal nodes = N₁ + N₂
 ### Perfect Binary Tree
 ### All levels are completely filled.
 
-9️⃣ Total nodes
+9 Total nodes
 ```
 n = 2^(h+1) - 1
 ```
-🔟 Leaf nodes
+10 Leaf nodes
 ```
 N₀ = 2^h
 ```
-1️⃣1️⃣ Internal nodes
+11 Internal nodes
 ```
 Internal = 2^h - 1
 ```
 ## Full Binary Tree
 (Each node has 0 or 2 children)
 
-1️⃣2️⃣ Total nodes
+12 Total nodes
 ```
 n = 2N₀ - 1
 ```
-1️⃣3️⃣ Leaf nodes
+13 Leaf nodes
 ```
 N₀ = (n + 1)/2
 ```
-1️⃣4️⃣ Internal nodes
+14 Internal nodes
 ```
 Internal = (n - 1)/2
 ```
 ## Complete Binary Tree
 
-1️⃣5️⃣ Height from nodes
+15 Height from nodes
 ```
 h = ⌊log₂ n⌋
 ```
 ## Binary Tree Properties
 
-1️⃣6️⃣ Minimum height for n nodes
+16 Minimum height for n nodes
 ```
 h_min = ⌈log₂(n+1)⌉ - 1
 ```
 
-1️⃣7️⃣ Maximum height for n nodes
+17 Maximum height for n nodes
 ```
 h_max = n - 1
 ```
 
-1️⃣8️⃣ Total number of NULL pointers in a binary tree
+18 Total number of NULL pointers in a binary tree
 ```
 NULL pointers = n + 1
 ```
 ## Binary Search Tree (BST) Specific
 
-1️⃣9️⃣ In-order traversal of BST gives sorted order
+19 In-order traversal of BST gives sorted order
 
-2️⃣0️⃣ Average height of BST
+20 Average height of BST
 ```
 h_avg ≈ log₂ n
 ```
 
-2️⃣1️⃣ Worst-case height of BST
+21 Worst-case height of BST
 ```
 h_worst = n - 1
 ```
 ## Special Tree Counts
 
-2️⃣2️⃣ Number of possible binary trees with n nodes
+22 Number of possible binary trees with n nodes
 (Catalan Number)
 ```
 n = total nodes
@@ -120,7 +120,7 @@ C(n) = (1 / (n+1)) * (2n choose n)  ------------ (1 / (n+1)) * (2n!/n!)
 ```
 C(3)=(1/4​)(6!/3!​)=(1/4)(20)=5 and total nodes is 3
 
-2️⃣3️⃣ Number of full binary trees with n internal nodes
+23 Number of full binary trees with n internal nodes
 ```
 n = internal nodes
 hence  C(n) as possible binary trees but total nodes is 2n+1 
