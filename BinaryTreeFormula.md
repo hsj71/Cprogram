@@ -118,13 +118,15 @@ h_worst = n - 1
 n = total nodes
 C(n) = (1 / (n+1)) * (2n choose n)  ------------ (1 / (n+1)) * (2n!/n!)
 ```
-C(3)=(1/4​)(6!/3!​)=(1/4)(20)=5
+C(3)=(1/4​)(6!/3!​)=(1/4)(20)=5 and total nodes is 3
 
 2️⃣3️⃣ Number of full binary trees with n internal nodes
 ```
 n = internal nodes
 hence  C(n) as possible binary trees but total nodes is 2n+1 
 ```
+C(3)=(1/4​)(6!/3!​)=(1/4)(20)=5 and total nodes is 7
+
 ---
 | Property                  | Formula       |
 | ------------------------- | ------------- |
