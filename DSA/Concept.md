@@ -90,6 +90,9 @@
                       stack.push(10);
                       stack.push(20);
                       console.log(stack.pop()); // Output: 20
+```
+---
+```
                       ________________________________________
                       📘 7. DS Array
                       Description:
@@ -147,6 +150,9 @@
                       Simple Example:
                       let colors = ['red', 'green', 'blue'];
                       console.log(colors[0]); // Output: red
+```
+---
+```
                       ________________________________________
                       📘 11. DS Linked List
                       Description:
@@ -301,6 +307,9 @@
                       int pop() {
                         return stack[top--];
                       }
+```
+---
+```
                       ________________________________________
                       📘 21. Implementation of Stack using Linked List
                       Description:
