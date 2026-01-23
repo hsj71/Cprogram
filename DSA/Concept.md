@@ -1,5 +1,5 @@
 # DSA Notes 
-<pre>
+```
   
                       📘 1. Data Structures and Algorithms (DSA)
                       Description:
@@ -1476,4 +1476,4 @@
                       📘 120. Doubly Linked List – Searching
                       Description:
                       Linear search, but can search from either direction.
- </pre>
+```
